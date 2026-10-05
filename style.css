@@ -1,0 +1,56 @@
+body{
+    background:linear-gradient(to right, #25e3c0, #bd14df);
+    display:flex;
+    height:100vh;
+    margin:0;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    background-color:white;
+    height:400px;
+    width:350px;
+    border-radius:10px;
+    padding:0px;
+
+}
+.container h1{
+    text-align:center;
+    font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.container label{
+    display:block;
+    font-weight:400;
+    margin:10px;
+
+}
+.container input{
+    padding:5px;
+    width:80%;
+    margin-left:20px;
+    border-radius:5px;
+    border:1px solid rgb(101, 230, 42);
+    margin-bottom: 10px;
+}
+.container button{
+    margin-top:20px;
+    margin-left:15px;
+    margin-bottom:5px;
+    width:90%;
+    padding:15px;
+    cursor:pointer;
+    border-radius:5px;
+    border:1px solid green;
+    background-color: rgb(235, 35, 182);
+    font-size:14px;
+    font-weight: 600;
+}
+.container p{
+    text-align:center;
+}
+.container a{
+    text-decoration: none;
+}
